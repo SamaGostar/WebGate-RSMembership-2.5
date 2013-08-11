@@ -10,7 +10,7 @@
 	<version>1.0.0</version>
 	<description>پلاگين پرداخت Zarinpal</description>
 	<files>
-		<filename plugin="rsmembershipzarinpalzg">rsmembershipzarinpalwg.php</filename>
+		<filename plugin="rsmembershipzarinpalwg">rsmembershipzarinpalwg.php</filename>
 	</files>
 	<languages>
 		<language tag="en-GB">en-GB.plg_system_rsmembershipzarinpalwg.ini</language>
