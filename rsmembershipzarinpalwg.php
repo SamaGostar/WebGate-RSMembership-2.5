@@ -55,7 +55,7 @@ class ZpWgSystemRSMembershipZarinpal extends JPlugin
             $transaction->custom = $result;
             $html = 'در حال وصل شدن به درگاه...<META http-equiv="refresh" content="3;URL='.$go.'">';
         }else{
-            $html = "در ارتباط با درگاه خطايي به وجود آمد : $result";
+            $html = "در ارتباط با درگاه خطايي به وجود آمد : $result->Status";
         }
 
 		return $html;
