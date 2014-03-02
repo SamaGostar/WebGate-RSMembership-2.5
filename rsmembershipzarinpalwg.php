@@ -28,7 +28,7 @@ class ZpWgSystemRSMembershipZarinpal extends JPlugin
 		$this->_params = new JParameter($this->_plugin->params);
 
 		if (!$this->canRun()) return;
-		RSMembership::addPlugin('( وب گیت)دروازه پرداخت Zarinpal', 'rsmembershipzarinpalwg');
+		RSMembership::addPlugin('دروازه پرداخت Zarinpal وب گیت', 'rsmembershipzarinpalwg');
 	}
     public function onAfterRender()
     {
