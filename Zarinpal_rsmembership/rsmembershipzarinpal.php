@@ -111,7 +111,6 @@ class plgSystemRSMembershipZarinpal extends JPlugin
 			'Amount'	 => $amount
 		));
 		return $res;   
-
 	}
 
 }
